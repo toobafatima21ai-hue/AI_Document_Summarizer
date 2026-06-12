@@ -1,0 +1,13 @@
+streamlit
+nltk
+scikit-learn
+PyPDF2
+reportlab
+pandas
+numpy
+langdetect
+transformers
+torch
+sentencepiece
+wordcloud
+matplotlib
