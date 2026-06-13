@@ -1,8 +1,7 @@
 #  AI-Powered Document Summarization System (NLP Project)
 
 ## 🚀 Live Demo
- https://your-app-name.streamlit.app
-
+ https://aidocumentsummarizer-kk4es7i87jj7vj2ejhcjqj.streamlit.app/
 ---
 
 ## Project Overview
