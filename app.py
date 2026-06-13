@@ -1,3 +1,8 @@
+import nltk
+
+nltk.download("punkt")
+nltk.download("punkt_tab")
+nltk.download("stopwords")
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import streamlit as st
