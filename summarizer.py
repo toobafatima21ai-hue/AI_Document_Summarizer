@@ -1,12 +1,18 @@
 from collections import Counter
-from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 import heapq
+import re
 
 
 def frequency_summary(text, percentage=30):
 
-    sentences = sent_tokenize(text)
+    # Split text into sentences without NLTK
+    sentences = [
+        s.strip()
+        for s in re.split(r'[.!?]+', text)
+        if s.strip()
+    ]
 
     words = word_tokenize(text.lower())
 
@@ -45,7 +51,15 @@ def frequency_summary(text, percentage=30):
 
 def tfidf_summary(text, percentage=30):
 
-    sentences = sent_tokenize(text)
+    # Split text into sentences without NLTK
+    sentences = [
+        s.strip()
+        for s in re.split(r'[.!?]+', text)
+        if s.strip()
+    ]
+
+    if len(sentences) == 0:
+        return "", {}
 
     vectorizer = TfidfVectorizer()
 
@@ -56,7 +70,7 @@ def tfidf_summary(text, percentage=30):
     sentence_scores = {}
 
     for i, sentence in enumerate(sentences):
-        sentence_scores[sentence] = scores[i, 0]
+        sentence_scores[sentence] = float(scores[i, 0])
 
     count = max(
         1,
