@@ -117,7 +117,4 @@ TEYZIZ CORE INTERNSHIP 2026
 
 
 
----
-
-## ⭐ Note
-This project demonstrates practical implementation of NLP techniques and is suitable for internship-level evaluation.
+ 
