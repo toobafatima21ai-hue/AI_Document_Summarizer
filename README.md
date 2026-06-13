@@ -1,134 +1,124 @@
 #  AI-Powered Document Summarization System (NLP Project)
 
+## 🚀 Live Demo
+ https://your-app-name.streamlit.app
+
 ---
 
-##  Project Overview
-- AI-Powered Document Summarization System is an NLP-based web application.
-- It automatically converts large text documents into short, meaningful summaries.
-- The system preserves key information while reducing unnecessary content.
-- It reduces manual effort required for reading and summarizing long documents such as:
-  - Research papers  
-  - Reports  
-  - Articles  
-  - Business documents  
-- Built using Python and Streamlit.
-- Demonstrates real-world NLP concepts including:
-  - Text preprocessing  
-  - Extractive summarization  
-  - Text analytics  
-  - Data visualization  
+## Project Overview
+This project is an AI-powered NLP web application that automatically summarizes long documents into short, meaningful summaries while preserving key information.
+
+It helps users quickly understand large texts like research papers, reports, and articles without reading everything manually.
+
+Built using Python and Streamlit with NLP techniques like text preprocessing, extractive summarization, and text analytics.
 
 ---
 
 ##  Objectives
-- Automate document summarization using NLP techniques
-- Reduce manual reading time for large documents
-- Extract meaningful insights from text data
-- Provide an interactive and user-friendly web interface
-- Support multiple document formats and analytics
+- Automate document summarization using NLP techniques  
+- Reduce manual reading time for long documents  
+- Extract meaningful insights from text  
+- Provide interactive web-based UI  
+- Support multiple document formats  
 
 ---
 
 ##  Key Features
 
-###  Input Module
-- Upload TXT files
-- Upload PDF files
-- Multi-document upload support
-- Direct text input option
+### 📂 Input System
+- Upload TXT files  
+- Upload PDF files  
+- Multi-document upload support  
+- Direct text input option  
 
 ---
 
 ###  NLP Processing
-- Text cleaning and preprocessing
-- Lowercasing and tokenization
-- Stopword removal
-- Sentence segmentation
+- Text cleaning and preprocessing  
+- Lowercasing  
+- Tokenization  
+- Stopword removal  
+- Sentence segmentation  
 
 ---
 
 ###  Summarization Techniques
-- Frequency-Based Extractive Summarization
-- TF-IDF Based Extractive Summarization
-- Adjustable summary length control (10% – 90%)
+- Frequency-Based Extractive Summarization  
+- TF-IDF Based Extractive Summarization  
+- Adjustable summary length (10% – 90%)  
 
 ---
 
 ###  Text Analytics
-- Word frequency analysis
-- Sentence importance scoring
-- Keyword extraction
-- Compression ratio (original vs summary)
+- Word frequency analysis  
+- Sentence importance scoring  
+- Keyword extraction  
+- Compression ratio calculation  
 
 ---
 
-### 🌐 Language Detection
+###  Language Detection
 - Automatic language detection using `langdetect`
 
 ---
 
-### ☁️ Visualization
-- Word Cloud generation
-- Bar chart for word frequency
-- Tabular representation of keywords and scores
+###  Visualization
+- Word Cloud generation  
+- Bar chart of word frequency  
+- Tables for keywords and scores  
 
 ---
 
-###  Export Functionality
-- Download summary as `.txt` file
-- Download summary as `.pdf` file
-
----
-
-###  User Interface
-- Interactive Streamlit-based UI
-- Side-by-side original vs summarized text
-- Clean and simple dashboard layout
-- Real-time processing of documents
+###  Export Options
+- Download summary as `.txt` file  
+- Download summary as `.pdf` file  
 
 ---
 
 ##  Tech Stack
 
-- Programming Language: Python  
-- Web Framework: Streamlit  
-- NLP Libraries: NLTK, Scikit-learn  
-- PDF Processing: PyPDF2  
-- Visualization: Matplotlib, WordCloud  
-- Data Handling: Pandas, NumPy  
-- PDF Export: ReportLab  
-- Language Detection: langdetect  
+- Python  
+- Streamlit  
+- NLTK  
+- Scikit-learn  
+- PyPDF2  
+- Pandas & NumPy  
+- Matplotlib  
+- WordCloud  
+- ReportLab  
+- langdetect  
 
 ---
 
 ##  How It Works
-
-- User uploads document(s) or enters text manually
-- Text is cleaned and preprocessed using NLP techniques
-- Sentences are scored using:
+- User uploads document or enters text  
+- Text is preprocessed using NLP techniques  
+- Sentences are ranked using:
   - Frequency-Based method OR  
-  - TF-IDF method
-- Top-ranked sentences are selected to generate summary
-- Additional analytics are generated:
-  - Word frequency
-  - Keyword extraction
-- Results are displayed in Streamlit UI
-- User can download output as:
-  - TXT file  
-  - PDF file  
+  - TF-IDF method  
+- Top sentences are selected as summary  
+- Analytics and visualization are generated  
+- User downloads final summary  
 
 ---
 
-##  Example Use Cases
-
+##  Use Cases
 - Academic paper summarization  
-- Research document summarization  
 - Business report summarization  
 - News article summarization  
 - Study material simplification  
 
 ---
+ 
+---
 
-## 👨‍💻 Author
-- TOOBA FATIMA  
-TEYZIX CORE INTERNSHIP PROJECT 2026
+##  Author
+TOOBA FATIMA
+TEYZIZ CORE INTERNSHIP 2026
+
+
+
+---
+
+## ⭐ Note
+This project demonstrates practical implementation of NLP techniques and is suitable for internship-level evaluation.
